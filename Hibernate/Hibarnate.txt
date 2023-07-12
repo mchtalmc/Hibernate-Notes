@@ -1,0 +1,64 @@
+                            What ıs Persıstence : 
+
+Java ile bir uygulama gerceklestirdigimizde ve projeyi sonlandirdigimizda degiskenelrin ve datalarin
+degerleri sadece RAM'da gecici bellekte saklaniyordu ve uygulama kapatildiginda hepsi kayboluyordu. 
+****Uygulama ile olusturdugumuz datalari kalici hale getirmeye PERSISTENCE deniyor.
+
+Data'yi kalici hale getirmek icin 
+1- Dosyaya yazdirabiliriz. input, output ile yazdirabiliriz
+(Burada yapilandirilamamis bir sekilde saklandigi icin duzensiz olur)
+
+2-Databaseler'de saklanabilir. Gelistirilmis datalari saklamak icin RDBMS kullanarak datalari saklayabiliriz.
+Iliskisel datalari, databasede saklamak icin SQL dili kullanarak CRUD(create,read,update,delete) 
+operasyonlarini gerceklestirebiliriz.
+
+=======================================================================================
+
+
+                                    Hibernate nedir : 
+Iliskisel databaselerde datalarin manipilasyonu icin java uygulamasi icerisinde sql sorgularini gonderilmesi icin
+jdbcs uygulamasi gelistirildi. Ancak java gibi bir uygulamada satirlarin map'lenebilmesi icin hibernate ORM tool'lar gelistirildi
+ve hibernate orm bir tooldur
+
+En populeri hibernate'dir. Temelde JDBC 'yi kullaniyor
+
+******************************************************************************************************
+                                     ORM NEDIR: 
+Java OOP bir programa dilidir. Icerisinde taslaklarimi olusturdugum Class'larim vardir
+Bu Class'lar icersinde degiskenlerim ve degerleri bulunur ve bunlardan olusur
+Ancak RDMBS Data base'lerin(Iliskisel data base) datalarimi tablolara kaydediyor
+Bu tablolar icerisinde tablolar ve sutunlar mevcut. 
+
+SQL Class ve objeleri bilmyiro
+Java uygulamamiz ise tablolar ve sutunlari bilmiyor
+
+OOP Programa dilleri ile yazilmis olan projelerde ki Datalari kalici hale getirmek icin ORM Toolar gerceklestirilmis
+
+ORM:Objeck Relational Mapping demektir. : Objelerin iliskisel olarak maplenmesi demektir.
+OOP Tabanli bir uygulamada SQL ile mapleme islemine Class'lar karsilik Tablo, Degiskenlere karsilik Fields(Sutunlara)
+Bu degiskenlerin degerlerine karsilik Satirlara(Records) maplemeliyim. 
+Bu programa teknigine ORM DENIR.
+
+==================================================***********************************************
+
+                                     JPA NEDIR :  
+Bir spesifikasyondur. ORM  tool'lari icin bir standardir. 
+Java tarafindan gerceklestirilmistir. Kontrolsuz bir sekilde ORM Tool'larin gelistirilmesi engellenmistir.
+
+
+================================******************************************************************
+
+                                  HIBERNATE-JDBC 
+
+Hibernate buyuk database iletisiminde JDBC'yi kullanir
+
+Hibernate, JDBC'nin bir ust katmanidir
+
+Uygulamamizi datayi almak ve kaydetmek icin HIBERNATE API'yi kullanir
+
+
+
+
+
+ 
+
